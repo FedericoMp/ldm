@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Los dulces de Maru</title>
+		<meta
+			name="description"
+			content="Delicias caseras que endulzan tus eventos. Sabores auténticos que hacen de cada ocasión algo especial, que traen calidez a tus celebraciones y generan momentos inolvidables."
+		/>
+		<meta
+			name="keywords"
+			content="comidas caseras, elaboraciones para eventos, dulces, facturas, bollería"
+		/>
+		<link rel="canonical" href="https://federicomp.github.io/ldm/" />
+		<meta name="author" content="Federico Pérez" />
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+		<!-- Open Graph Tags -->
+		<meta
+			property="og:title"
+			content="Los dulces de Maru"
+		/>
+		<meta
+			property="og:description"
+			content="Delicias caseras que endulzan tus eventos. Sabores auténticos que hacen de cada ocasión algo especial, que traen calidez a tus celebraciones y generan momentos inolvidables."
+		/>
+		<meta
+			property="og:image"
+			content="./img/og-image.webp"
+		/>
+		<meta property="og:url" content="https://federicomp.github.io/ldm/" />
+		<meta property="og:type" content="website" />
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Styles -->
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="position-relative">
+			<!-- Gradient bg -->
+			<div class="position-relative w-100 bg-gradient-container">
+				<div class="position-absolute w-100 top-0 z-2 bg-gradient-top black-white"></div>
+			</div>
+			<!-- Nav -->
+			<div class="container container-nav position-relative z-3">
+			  <h3 class="title-nav py-2 float-md-start mb-0 text-center text-white">Los dulces de Maru</h3>
+			  <nav class="py-2 nav nav-masthead justify-content-center float-md-end gap-3">
+				<a class="nav-link fw-bold py-1 px-0 text-white" aria-current="page" href="#inicio">Inicio</a>
+				<a class="nav-link fw-bold py-1 px-0 text-white" href="#productos">Productos</a>
+				<a class="nav-link fw-bold py-1 px-0 text-white" href="#contacto">Contacto</a>
+			  </nav>
+			</div>
+		</header>
+		<!-- Hero -->
+		<div id="inicio" class="position-relative">
+			<div class="position-absolute absolute-content text-center">
+				<img src="./img/logo-web.webp" class="logo-web" alt="Logo">
+				<h2 class="products-heading text-white mt-3 max-width-80">Endulzá tus eventos con nuestras delicias</h2>
+			</div>
+			  <div id="heroSlides" class="carousel slide">
+				<div class="carousel-inner">
+				  <div class="carousel-item active" data-bs-interval="10000">
+					<img src="./img/hero/hero.webp" class="d-block w-100 h-100 object-fit-cover" alt="cookies">
+				</div>
+				</div>
+			  </div>
+		</div>
+		<!-- Gradient bg -->
+		<div class="position-relative w-100 bg-gradient-container">
+			<div class="position-absolute w-100 bottom-0 z-1 bg-gradient-bottom white-black"></div>
+		</div>
+		<!-- Products -->
+		<div id="productos" class="container products my-5 mt-0">
+			<h2 class="my-5 products-title">Productos</h2>
+			<div class="row">
+			  <div class="col-md-7 d-flex flex-column justify-content-center">
+				<div class="max-width-80">
+					<h2 class="products-heading fw-normal lh-1 me-md-3">Sabor y cariño <span class="text-body-secondary">en cada creación.</span></h2>
+					<p class="lead me-md-3 mt-3">Cuando se trata de organizar un evento, los dulces no pueden faltar para una experiencia memorable.</p>
+				</div>
+			  </div>
+			  <div class="col-md-5">
+				<div id="productsSlider1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					<div class="carousel-inner rounded">
+					  <div class="carousel-item active" data-bs-interval="20000">
+						<img src="./img/grid/pic-6.webp" class="d-block w-100 h-100 object-fit-cover" alt="cookies">
+					</div>
+					<div class="carousel-item" data-bs-interval="30000">
+						<img src="./img/grid/pic-2.webp" class="d-block w-100 h-100 object-fit-cover" alt="biscuit">
+					</div>
+					<div class="carousel-item" data-bs-interval="10000">
+						  <img src="./img/grid/pic-3.webp" class="d-block w-100 h-100 object-fit-cover" alt="sweets">
+					  </div>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<hr class="content-divider border-0">
+			<div class="row">
+			  <div class="col-md-7 order-md-2 d-flex flex-column justify-content-center">
+				<div class="max-width-80">
+					<h2 class="products-heading fw-normal lh-1 ms-md-4">Dulces momentos, <span class="text-body-secondary">sabores inolvidables.</span></h2>
+					<p class="lead ms-md-4 mt-3">Cada elaboración suele ser tan sabrosa y puede adaptarse a los gustos específicos de tus invitados.</p>
+				</div>
+			  </div>
+			  <div class="col-md-5 order-md-1">
+				<div id="productsSlider2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					<div class="carousel-inner rounded">
+					  <div class="carousel-item active" data-bs-interval="10000">
+						<img src="./img/grid/pic-4.webp" class="d-block w-100 h-100 object-fit-cover" alt="cookies">
+					</div>
+					<div class="carousel-item" data-bs-interval="20000">
+						<img src="./img/grid/pic-1.webp" class="d-block w-100 h-100 object-fit-cover" alt="biscuit">
+					</div>
+					<div class="carousel-item" data-bs-interval="30000">
+						  <img src="./img/grid/pic-5.webp" class="d-block w-100 h-100 object-fit-cover" alt="sweets">
+					  </div>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<hr class="content-divider mb-0">
+		</div>
+		<!-- Contact -->
+		<div id="contacto" class="container concact">
+			<h2 class="my-5 products-title text-end">Contacto</h2>
+			<div class="row">
+				<div class="col-md-9 col-12 mx-auto text-center">
+					<div class="max-width-80">
+						<h2 class="products-heading fw-normal lh-1">¡Déjate tentar <span class="text-body-secondary">por nuestras comidas!</span></h2>
+						<p class="lead mt-3">Descubre el sabor a través de nuestras fotos, conoce los tipos de preparaciones que realizamos y no te pierdas nuestras novedades.</p>
+						<a href="https://ig.me/m/losdulcesdemaru77" target="_blank" role="button" class="btn btn-dark mt-md-3">
+							Visitar perfil <i class="ms-1 fa fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="position-relative w-100 bg-gradient-container">
+			<div class="position-absolute w-100 top-0 z-1 bg-gradient-top white-black"></div>
+		</div>
+		<!-- Image grid 100% (no container) -->
+		<div id="image-grid" class="row mt-5 mx-auto px-2">
+			<div class="col position-relative overflow-hidden px-1">
+				<img src="./img/grid/pic-8.webp" class="object-fit-cover rounded h-50 w-100 mt-2">
+				<img src="./img/grid/pic-3.webp" class="object-fit-cover rounded w-100 mt-2">
+				<img src="./img/grid/pic-6.webp" class="object-fit-cover rounded h-25 w-100 mt-2">
+			</div>
+			<div class="col position-relative overflow-hidden px-1">
+				<img src="./img/grid/pic-9.webp" class="object-fit-cover rounded h-25 w-100 mt-2">
+				<img src="./img/grid/pic-12.webp" class="object-fit-cover rounded h-50 w-100 mt-2">
+				<img src="./img/grid/pic-5.webp" class="object-fit-cover rounded w-100 mt-2">
+			</div>
+			<div class="col position-relative overflow-hidden px-1">
+				<img src="./img/grid/pic-7.webp" class="object-fit-cover rounded h-50 w-100 mt-2">
+				<img src="./img/grid/pic-11.webp" class="object-fit-cover rounded w-100 mt-2">
+				<img src="./img/grid/pic-3.webp" class="object-fit-cover rounded h-25 w-100 mt-2">
+			</div>
+			<div class="col position-relative overflow-hidden px-1 d-none d-md-block">
+				<img src="./img/grid/pic-10.webp" class="object-fit-cover rounded w-100 mt-2">
+				<img src="./img/grid/pic-4.webp" class="object-fit-cover rounded h-25 w-100 mt-2">
+				<img src="./img/grid/pic-1.webp" class="object-fit-cover rounded h-50 w-100 mt-2">
+			</div>
+		</div>
+		<div class="position-relative w-100 bg-gradient-container">
+			<div class="position-absolute w-100 bottom-0 z-1 bg-gradient-bottom white-black"></div>
+		</div>
+		<!-- Footer -->
+		<footer class="text-center text-body-tertiary mb-5 mt-1">
+			 <span>Los dulces de Maru</span>
+			<span id="year">...</span>
+			<p class="opacity-50">
+				<small>Hecho con ♡ por <a href="https://federicomp.github.io/personal-info/" target="_blank">@federicomp</a></small>
+			</p>
+		 </footer>
+		<!-- Fixed button -->
+		 <div class="container position-relative fixed-btn-container">
+			 <a href="https://wa.me/+34682317836?text=Hola,%20quisiera%20averiguar%20sobre..." role="button" class="btn btn-success fs-2 btn-lg rounded-circle position-fixed z-1 fixed-btn" target="_blank">
+				<i class="fa fa-whatsapp"></i>
+			</a>
+		 </div>
+		<!-- Bootstrap Script -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+        <!-- Page Script -->
+         <script>
+            let yearSpace = document.getElementById('year');
+            let yearDate = new Date().getFullYear();
+            yearSpace.innerText = ` | ${yearDate} ©`;
+         </script>
+	</body>
+</html>

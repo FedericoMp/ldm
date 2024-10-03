@@ -1,0 +1,103 @@
+/* Font */
+@font-face {
+    font-family: WelcomeMagic;
+    src: url("../fonts/WelcomeMagic.otf") format("opentype"),
+         url("../fonts/WelcomeMagic.ttf")  format("truetype");
+}
+
+/* Header */
+header,
+header > .container-nav {
+	min-height: 3rem;
+}
+
+header > .container-nav > h3.title-nav {
+	font-size: large;
+	font-family: WelcomeMagic, var(--bs-font-sans-serif);
+}
+
+.nav-masthead > a.nav-link {
+	font-size: smaller;
+}
+
+/* Hero */
+.absolute-content {
+	z-index: 2;
+	top: 0;
+    right: 50%;
+    transform: translate(50%, 30%);
+}
+
+.absolute-content > img.logo-web {
+	width: 12rem;
+    height: auto;
+}
+
+#heroSlides > .carousel-inner > .carousel-item {
+	height: 40rem;
+}
+
+/* Productos */
+h2.products-title {
+	font-family: serif;
+    opacity: 0;
+}
+
+#productsSlider1 > .carousel-inner > .carousel-item,
+#productsSlider2 > .carousel-inner > .carousel-item {
+	height: 22rem;
+}
+
+.content-divider {
+	margin: 5rem 0;
+}
+
+@media (min-width: 40em) {
+	.max-width-80 {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 765px) {
+	.lead {
+		margin-bottom: 3.5rem;
+	}
+}
+
+@media (min-width: 40em) {
+	.products-heading {
+	  font-size: 40px;
+	}
+}
+
+/* Gradients bg */
+.bg-gradient-container {
+	height: 1rem;
+    box-sizing: border-box;
+}
+
+.bg-gradient-container > .bg-gradient-bottom,
+.bg-gradient-container > .bg-gradient-top {
+	height: 10rem;
+}
+
+.bg-gradient-container > .bg-gradient-bottom.white-black {
+	background: rgb(242,242,242);
+    background: linear-gradient(0deg, rgb(255 255 255) 40%, rgb(255 255 255 / 0%) 100%);
+}
+.bg-gradient-container > .bg-gradient-top.white-black {
+	background: rgb(242,242,242);
+    background: linear-gradient(0deg, rgb(255 255 255 / 0%), rgb(255 255 255) 40% 100%);
+}
+
+.bg-gradient-container > .bg-gradient-top.black-white {
+	background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgb(0 0 0) 60%, rgb(255 255 255 / 0%) 100%);
+}
+
+/* Fixed btn */
+.fixed-btn-container > .fixed-btn {
+	bottom: 1rem;
+	right: 1.5rem;
+}
